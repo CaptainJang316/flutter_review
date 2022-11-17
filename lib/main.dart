@@ -20,12 +20,13 @@ class MyApp extends StatelessWidget {
       ),
       home: ChangeNotifierProvider(
         create: (_) => CountProvider(),
-        child: Home(),
+        child: MyHomePage(),
       )
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
+
 
 // class Counter {
 //   int _count = 0;
